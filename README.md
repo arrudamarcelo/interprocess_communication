@@ -2,6 +2,8 @@
 
 This project presents an interprocess communication (client-server) using named pipes. Once the target platform is Windows, it's used a pipe communication based on Microsoft's samples. There are some strategies of named pipe communication, it was used a strategy based on ["Named Pipe Server Using Overlapped I/O"](https://docs.microsoft.com/en-us/windows/desktop/ipc/synchronous-and-overlapped-input-and-output). Using this strategy, the server is capable to response asynchronously several clients.
 
+![Interprocess communication](interprocess_communication.png)
+
 ## Requirements
 
 * The client should connect to the server and make different calls to it, synchronous and asynchronous.
